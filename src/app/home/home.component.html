@@ -1,5 +1,24 @@
-<p>
+<div class="flex flex-col justify-start h-screen overflow-y-auto">
   <app-header_menu></app-header_menu>
   <app-currency_selector></app-currency_selector>
-  home works!
-</p>
+  <!-- TradingView Widget BEGIN -->
+  <!-- <div class="tradingview-widget-container__widget"></div> -->
+  <!-- TradingView Widget END -->
+
+  <!-- TradingView Widget BEGIN -->
+  <div
+    class="tradingview-widget-container h-screen max-h-screen w-screen max-w-screen"
+    style="height: 100%; width: 100%"
+  >
+    <div id="basic-area-chart-demo" class="h-full w-full"></div>
+    <div class="tradingview-widget-copyright">
+      <a
+        href="https://www.tradingview.com/"
+        rel="noopener nofollow"
+        target="_blank"
+        ><span class="blue-text">Track all markets on TradingView</span></a
+      >
+    </div>
+  </div>
+  <!-- TradingView Widget END -->
+</div>
