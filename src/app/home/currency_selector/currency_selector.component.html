@@ -1,0 +1,69 @@
+<div class="flex flex-row justify-between">
+  <!-- SELETOR DE MOEDA E INPUT DE PREÇO -->
+  <div
+    id="card_1"
+    class="flex flex-row flex-1 justify-between items-center h-[100px] p-5 bg-slate-800 text-white"
+  >
+    <div class="flex flex-row justify-between items-center">
+      <div id="iconFlag" class="border-4 border-slate-700 mr-5">
+        <img src="../../../assets/flags/us.svg" alt="us" width="70px" />
+      </div>
+      <div id="currencySelector">
+        <div id="currencySelectLabel" class="text-[12px]">SELECIONADO</div>
+        <!-- <div id="currencySelect" class="text-[30px] font-bold">USD</div> -->
+        <div id="currencySelect" class="text-[30px] font-bold">
+          <input
+            type="text"
+            placeholder=""
+            value="usd"
+            class="bg-transparent outline-none uppercase"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="currencySelectLabel" class="text-[12px]">
+        <p class="uppercase">digite um valor</p>
+      </div>
+      <div class="text-[30px] font-bold">US$ 100.00</div>
+    </div>
+  </div>
+  <!-- SELETOR DE MOEDA E VISUALIZADOR DE VALOR CONVERTIDO -->
+  <div
+    id="card_1"
+    class="flex flex-row flex-1 justify-between items-center h-[100px] p-5 bg-slate-700 text-white"
+  >
+    <div class="flex flex-row justify-between items-center">
+      <div id="iconFlag" class="border-4 border-slate-800 mr-5">
+        <img src="../../../assets/flags/br.svg" alt="us" width="70px" />
+      </div>
+      <div id="currencySelector">
+        <div id="currencySelectLabel" class="text-[12px]">SELECIONADO</div>
+        <!-- <div id="currencySelect" class="text-[30px] font-bold">BRL</div> -->
+        <div id="currencySelect" class="text-[30px] font-bold bg-transparent">
+          <select id="frutas" name="frutas" class="bg-transparent outline-none">
+            <option value="maca">Maçã</option>
+            <option value="banana">Banana</option>
+            <option value="laranja">Laranja</option>
+            <option value="uva">Uva</option>
+          </select>
+        </div>
+
+        <!-- <div id="currencySelect" class="text-[30px] font-bold">
+          <input
+            type="text"
+            placeholder=""
+            value="brl"
+            class="bg-transparent outline-none uppercase"
+          />
+        </div> -->
+      </div>
+    </div>
+    <div>
+      <div id="currencySelectLabel" class="text-[12px]">
+        <p class="uppercase">digite um valor</p>
+      </div>
+      <div class="text-[30px] font-bold">R$ 100.00</div>
+    </div>
+  </div>
+</div>
